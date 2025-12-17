@@ -6,3 +6,6 @@ user_pref("privacy.sanitize.sanitizeOnShutdown", false);
 user_pref("privacy.clearOnShutdown_v2.cache", false);
 user_pref("privacy.clearOnShutdown_v2.cookiesAndStorage", false);
 user_pref("privacy.clearOnShutdown_v2.formdata", false);
+
+// ダウンロード時に保存場所を尋ねず、自動的にダウンロードフォルダに保存する
+user_pref("browser.download.useDownloadDir", true);
